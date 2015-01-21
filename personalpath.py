@@ -13,4 +13,4 @@ class PersonalPath:
 	def createDirectory(self ):
 		if not os.path.isdir(self.mainPath):
 			os.makedirs(self.mainPath)
-			print 'Created directory ' + self.mainPath
+			print ('Created directory ' + self.mainPath)
