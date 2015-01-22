@@ -163,7 +163,7 @@ def serialFetcher(yearsNumber,query, globalLimit):
     print ("MedlineFetcher::serialFetcher :")
     thequeries = []
     for i in range(yearsNumber):
-        year = str(2014 - i)
+        year = str(2015 - i)
         print ('YEAR ' + year)
         print ('---------\n')
         # medlineEfetch(str(year) + '[dp] '+query , 20000)
