@@ -3,15 +3,10 @@
 # ****************************
 
 # MEDLINE USER REQUIREMENT : Run retrieval scripts on weekends or between 9 pm and 5 am Eastern Time weekdays
-
-import personalpath
-
 import sys
 if sys.version_info >= (3, 0): from urllib.request import urlopen
 else: from urllib import urlopen
 
-# from xml import xpath
-import xml.dom.minidom
 import os
 import time
 # import libxml2
